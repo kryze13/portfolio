@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: |
           npm run build
-          touch ./dist/.nojekyll  # WICHTIG für React-SPAs
+          touch ./dist/.nojekyll
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
